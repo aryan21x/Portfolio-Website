@@ -16,7 +16,7 @@ ined for smaller width devices */
         right: 0; 
         padding: 0 3rem; 
         top: 75px; 
-		background-image: linear-gradient(180deg, #B22222, #000);; 
+		background-image: linear-gradient(180deg, #B22222, #000); 
         display: none; 
         transition: all 0.25s; 
     } 
