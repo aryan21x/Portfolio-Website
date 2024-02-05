@@ -428,3 +428,10 @@ a.github-link {
 .black-text { 
     color: #000; 
 }
+
+
+.clock {
+	text-align: right;
+	padding: 0 19rem;
+	color: #B22222;
+}
