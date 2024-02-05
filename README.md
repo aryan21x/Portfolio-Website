@@ -1,0 +1,1 @@
+I've created a website that highlights my projects, experience, and skills. It is constantly updating as I evolve and gain more skills and experiences. It contains a link to my resume and contact information. The website is hosted on GitHub. 
