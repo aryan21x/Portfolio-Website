@@ -60,6 +60,7 @@ ined for smaller width devices */
 /* CSS for mobile devices */
 @media screen and (min-width: 280px) and (max-width: 576px) { 
     .hero { 
+		position: relative;
         justify-content: center; 
         color: #fff; 
         background-image: radial-gradient(circle, rgb(15 14 14 / 30%), rgb(102 96 96 / 40%), rgb(163 160 160 / 16%)), url('./Images/grey.jpg') 
@@ -70,7 +71,7 @@ ined for smaller width devices */
     } 
   
     .hero .intro-buttons { 
-        gap: 20px; 
+        gap: 20px;
     } 
   
     .btn { 
@@ -169,4 +170,13 @@ ined for smaller width devices */
     .footer-list-items { 
         margin: 0; 
     } 
+	
+	.clock {
+		display: none;
+		position: absolute;
+		top: 23rem;
+		right: auto;
+		text-align: center;
+		padding: 3em;
+	}
 }
