@@ -9,15 +9,16 @@ body {
 } 
   
 /* Header Navbar Styles */
-.navbar { 
+.navbar {
+	position: fixed;
     display: flex; 
     align-items: center; 
-    justify-content: space-between; 
-    position: fixed; 
+    justify-content: space-between;
     top: 0; 
     width: 100%; 
     background-image: linear-gradient(180deg, #B22222, #696969); 
     background-color: transparent; 
+	z-index: 2; 
 } 
 
   
@@ -67,7 +68,7 @@ body {
     height: 100vh; 
     display: flex; 
     align-items: center; 
-    justify-content: start; 
+	position: relative;
 
 } 
   
@@ -431,7 +432,9 @@ a.github-link {
 
 
 .clock {
-	text-align: right;
-	padding: 0 19rem;
-	color: #B22222;
+	position: absolute;
+	top: 9rem;
+	right: 9rem;
+	text-align: center;
+	padding: 0em;
 }
