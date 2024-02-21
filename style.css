@@ -135,10 +135,6 @@ a.github-link {
 }
 
 
-.small-para:hover { 
-    font-size: 15px; 
-    color: #FFA500;
-}
 
 
 .port-card .image { 
@@ -189,7 +185,7 @@ a.github-link {
 } 
 
 .my-card:hover {
-	border-radius: 30px; 
+	font-size: 75px;
     background-image: linear-gradient(#FFA500, #B22222); 
 }
   
@@ -303,11 +299,6 @@ a.github-link {
 	color:#000;
 } 
 
-.greet-heading:hover { 
-    font-size: 1.6rem; 
-	color:#FFA500;
-}
-
 .greet-heading2 { 
     font-size: 0.72rem; 
     font-weight: lighter; 
@@ -321,14 +312,6 @@ a.github-link {
     margin: 0; 
 }
 
-.job-details:hover{
-	color: #FFA500;
-}
-
-.my-heading:hover { 
-	color:#FFA500;
-}  
- 
   
 .sub-heading { 
     margin: 0; 
@@ -337,7 +320,7 @@ a.github-link {
 } 
   
 .links:hover { 
-    border-bottom: 2px solid #fff; 
+    border-bottom: 2px solid #FFA500; 
 } 
   
 .links { 

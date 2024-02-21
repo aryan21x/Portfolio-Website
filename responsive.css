@@ -171,6 +171,11 @@ ined for smaller width devices */
         margin: 0; 
     } 
 	
+	.link-btn {
+	padding: 6px 14px;
+	font-size: 13px;
+	}
+	
 	.clock {
 		display: none;
 		position: absolute;
@@ -179,4 +184,21 @@ ined for smaller width devices */
 		text-align: center;
 		padding: 3em;
 	}
+	.health-bar {
+		position: absolute;
+		width: 80px;
+		height: 8px;
+		margin-left: calc(-10% - 100px); 
+		margin-top: calc(55%);
+	}
+
+	.mp-bar {
+		position: absolute;
+		width: 80px;
+		height: 8px;
+		margin-left: calc(-10% - 100px); 
+		margin-top: calc(58% - 10px);
+	}
+
+}
 }
